@@ -1,6 +1,11 @@
 # Provision an EKS Cluster for the Splunk K8s Operator
   
-Terraform configuration files to provision an EKS cluster on AWS.  
+The instructions in this repo will:
+ - Provide `terraform` to create an EKS cluster  
+ - Deploy K8s Metrics Server
+ - Deploy K8s Dashboard
+ - Install Splunk Operator for K8s
+ -  Deploy a Standalone deployment of Splunk Enterprise on EKS
   
 ### 1. Deploy EKS Cluster
 Clone the repo
