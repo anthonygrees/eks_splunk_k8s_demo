@@ -5,7 +5,16 @@ The instructions in this repo will:
  - Deploy K8s Metrics Server
  - Deploy K8s Dashboard
  - Install Splunk Operator for K8s
- -  Deploy a Standalone deployment of Splunk Enterprise on EKS
+ -  Deploy a Standalone deployment of Splunk Enterprise on EKS  
+
+### Before you start
+Before you begin, you will need the following:
+ - AWS Account
+ - AWS IAM Permissions [Example Here](../iam_permissions.md)
+ - AWS CLI Installed
+ - Kubernetes CLI
+ - wget installed
+ - Terraform 0.14.11
   
 ### 1. Deploy EKS Cluster
 Clone the repo
