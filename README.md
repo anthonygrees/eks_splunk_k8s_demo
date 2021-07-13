@@ -112,7 +112,7 @@ To use the Kubernetes dashboard, you need to create a ClusterRoleBinding and pro
   
 In another terminal (do not close the kubectl proxy process), create the ClusterRoleBinding resource.
 ```bash
-kubectl apply -f https://raw.githubusercontent.com/hashicorp/learn-terraform-provision-eks-cluster/master/kubernetes-dashboard-admin.rbac.yaml
+kubectl apply -f https://raw.githubusercontent.com/anthonygrees/eks_splunk_k8s_demo/master/kubernetes-dashboard-admin.rbac.yaml
 ```
   
 Then, generate the authorization token.
