@@ -10,7 +10,7 @@ The instructions in this repo will:
 ### Before you start
 Before you begin, you will need the following:
  - AWS Account
- - AWS IAM Permissions [Example Here](../iam_permissions.md)
+ - AWS IAM Permissions [Example Here](../blob/iam_permissions.md)
  - AWS CLI Installed
  - Kubernetes CLI
  - wget installed
