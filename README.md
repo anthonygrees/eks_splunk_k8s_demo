@@ -5,8 +5,8 @@ Terraform configuration files to provision an EKS cluster on AWS.
 ### 1. Deploy EKS Cluster
 Clone the repo
 ```bash
-git clone 
-cd 
+git clone git@github.com:anthonygrees/eks_splunk_k8s_demo.git
+cd eks_splunk_k8s_demo
 ```
   
 Initiate the Terraform
@@ -14,7 +14,7 @@ Initiate the Terraform
 terraform init -update
 ```
   
-Apply
+Apply the terraform to create the EKS cluster
 ```bash
 terraform apply
 ```
