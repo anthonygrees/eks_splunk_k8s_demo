@@ -1,4 +1,4 @@
-##IAM Permissions
+## IAM Permissions  
 Following IAM permissions are the minimum permissions needed for your IAM user or IAM role to create an EKS cluster.  
   
   
