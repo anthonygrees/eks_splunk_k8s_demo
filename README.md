@@ -201,6 +201,7 @@ data:
   shc_secret: ZXRYQzNZV3VYOHRrbHBuWUFOeVpMZDBn
 kind: Secret
 ```
+`Note`: The output is encoded.  The above is for demonstration purposes only and the secrets are not real !
   
 To `Decode` your passwords use the following:
 ```bash
@@ -216,8 +217,9 @@ pass4SymmKey: yioEG9794pbDZAvPRyTKUWUX
 password: QrbDnHQRnwXCa7eGJSslzakw
 shc_secret: etXC3YWuX8tklpnYANyZLd0g
 ```
-
-
+`Note`: The output is now decoded.  The above is for demonstration purposes only and the secrets are not real !  You need to retrieve your own !
+  
+  
 Log into Splunk Enterprise at http://localhost:8000 using the `admin` account with the password.
   
   
